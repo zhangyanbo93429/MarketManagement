@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8710B0C01FD6585B00DA00E0 /* JiajuDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710B0BE1FD6585900DA00E0 /* JiajuDatabase.m */; };
 		875976AE1FD4FDD40000D32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976AD1FD4FDD40000D32B /* AppDelegate.m */; };
 		875976B11FD4FDD40000D32B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976B01FD4FDD40000D32B /* ViewController.m */; };
 		875976B41FD4FDD40000D32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875976B21FD4FDD40000D32B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		875976BC1FD4FDD40000D32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976BB1FD4FDD40000D32B /* main.m */; };
 		875976C61FD4FDD50000D32B /* MarketManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976C51FD4FDD50000D32B /* MarketManagementTests.m */; };
 		875976D11FD4FDD50000D32B /* MarketManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976D01FD4FDD50000D32B /* MarketManagementUITests.m */; };
+		875976E71FD622D90000D32B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875976E61FD622D90000D32B /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8710B0BE1FD6585900DA00E0 /* JiajuDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiajuDatabase.m; sourceTree = "<group>"; };
+		8710B0BF1FD6585A00DA00E0 /* JiajuDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiajuDatabase.h; sourceTree = "<group>"; };
 		875976A91FD4FDD40000D32B /* MarketManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875976AC1FD4FDD40000D32B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		875976AD1FD4FDD40000D32B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		875976CC1FD4FDD50000D32B /* MarketManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875976D01FD4FDD50000D32B /* MarketManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketManagementUITests.m; sourceTree = "<group>"; };
 		875976D21FD4FDD50000D32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875976E51FD622D90000D32B /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		875976E61FD622D90000D32B /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8710B0C11FD6586E00DA00E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8710B0BF1FD6585A00DA00E0 /* JiajuDatabase.h */,
+				8710B0BE1FD6585900DA00E0 /* JiajuDatabase.m */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		875976A01FD4FDD40000D32B = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +117,10 @@
 		875976AB1FD4FDD40000D32B /* MarketManagement */ = {
 			isa = PBXGroup;
 			children = (
+				8710B0C11FD6586E00DA00E0 /* Model */,
 				875976AC1FD4FDD40000D32B /* AppDelegate.h */,
+				875976E51FD622D90000D32B /* AddViewController.h */,
+				875976E61FD622D90000D32B /* AddViewController.m */,
 				875976AD1FD4FDD40000D32B /* AppDelegate.m */,
 				875976AF1FD4FDD40000D32B /* ViewController.h */,
 				875976B01FD4FDD40000D32B /* ViewController.m */,
@@ -266,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				875976B11FD4FDD40000D32B /* ViewController.m in Sources */,
+				8710B0C01FD6585B00DA00E0 /* JiajuDatabase.m in Sources */,
 				875976BC1FD4FDD40000D32B /* main.m in Sources */,
+				875976E71FD622D90000D32B /* AddViewController.m in Sources */,
 				875976AE1FD4FDD40000D32B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

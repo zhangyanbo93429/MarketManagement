@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JiajuDatabase.h"
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
